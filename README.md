@@ -43,7 +43,7 @@ Methodological references throughout: Bailey, Borwein, López de Prado & Zhu
    runs correctly regardless of the current folder, and reproduces its data
    pipeline from `data/raw/` from a cold start.
 3. Console output (tables) and figures are produced on execution; figures were
-   exported as PNG into `exports/` for inclusion in the report.
+   exported as PNG into `outputs/` for inclusion in the report.
 
 **Report (Part I and Part II write-up):**
 1. Open `STA4028Z-A1-2026-FRNBEN003-v1.0.tex` in Overleaf (or compile locally
@@ -67,10 +67,8 @@ Methodological references throughout: Bailey, Borwein, López de Prado & Zhu
 │                       # beyond the scripts' own inline code at present)
 ├── docs/               # standalone .tex section files (superseded by the
 │                       # main report file, retained for reference)
-├── exports/            # figures exported from MATLAB for the report
-├── Figures/            # figures as referenced in the report, in Overleaf
+├── outputs/            # figures exported from MATLAB for the report
 ├── STA4028Z-A1-2026-FRNBEN003-v1.0.tex   # compiles to the submitted PDF
-├── myrefs.bib
 └── README.md
 ```
 
