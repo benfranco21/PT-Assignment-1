@@ -1,0 +1,19 @@
+# MATLAB autosave / temp files
+*.asv
+*.m~
+
+# MATLAB workspace files (allow those under data/raw and data/derived)
+*.mat
+!data/raw/**/*.mat
+!data/derived/**/*.mat
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# OS junk files
+.DS_Store
+Thumbs.db
